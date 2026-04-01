@@ -1,0 +1,636 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: arial;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.main-container{
+    width: 100%;
+}
+/*Nav bar section*/
+/*nav-left-items*/
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+}
+.nav-text{
+    color:gray;
+    font-size: 11px;
+}
+img{
+    margin-left: 30px;
+}
+.nav-left{
+    display: flex;
+    gap:20px;
+}
+/*nav-right-items*/
+.nav-right{
+    display: flex;
+    gap: 50px;
+}
+.nav-button{
+    margin-right: 30px;
+    padding: 5px;
+    color: white;
+    background-color: orangered;
+    border: 1px solid orangered;
+    border-radius: 5px;
+}
+.nav-button:hover{
+    background-color: rgb(196, 70, 24);
+}
+a{
+    color: gray;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+/*Hero-section*/
+.hero{
+    position: relative;
+    overflow: hidden;
+    height:500px ;
+    width: 100%;
+}
+/*Hero-video*/
+.hero-video{
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+}
+/*Hero-content*/
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color: white;
+    font-size: 40px;
+   margin-top: 100px;
+}
+p{
+    color: rgb(147, 138, 138);
+    margin-top: 30px;
+}
+/*Hero-button*/
+.Hero-button{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+.hero-btn1{
+    height: 60px;
+    width:200px;
+    background-color:whitesmoke;
+    border: 1px solid white;
+}
+.hero-btn2{
+    height: 60px;
+    width:200px;
+    color:white;
+    border:2px solid white;
+    background:none;
+}
+.hero-btn2:hover{
+    color: black;
+    background-color:whitesmoke ;
+}
+/*Experiences section*/
+.experience{
+    display: flex;
+    width: 100%;
+}
+.house-img{
+    margin-top: 80px;
+}
+.share-experience{
+    margin-top: 100px;
+}
+.content{
+    color:rgb(142, 123, 123);
+    margin-top: 40px;
+    font-size: 17px;
+    line-height: 25px;
+}
+.main-heading{
+    font-size:35px;
+    color: black;
+    padding-left: 20px;
+}
+ul{
+    margin-top: 20px;
+    color: rgb(142, 123, 123);
+    padding-left: 32px;
+}
+li{
+    line-height: 40px;
+    list-style-type:square;
+}
+.view-btn{
+    margin-top: 15px;
+    height: 60px;
+    width:220px;
+    color:white;
+    font-size: 17px;
+    background-color: rgb(12, 20, 41);
+    border:1px solid rgb(12, 20, 41);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow{
+    margin-left: 10px;
+    font-size: bold;
+}
+hr{
+    margin-top: 100px;
+    color: antiquewhite;
+}
+/*Services section*/
+.My-services{
+    display:flex;
+    background-color:#e5e5e5;
+    padding-bottom: 100px;
+    width: 100%;
+}
+/*services content*/
+.heading{
+    color:black;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+.paragraph{
+    font-size: 13px;
+    padding-left:30px;
+    margin-top: 40px;
+}
+.content{
+    padding-left: 30px;
+    line-height: 30px;
+}
+/*services buttons*/
+.learn-btn{
+    height:40px;
+    width:150px;
+    margin-left: 30px;
+    margin-top: 40px;
+    border: 2px solid black;
+    background-color:rgb(12, 20, 41);
+    color:white;
+}
+.video-btn{
+    height:40px;
+    width:150px;
+    border:2px solid black;
+    background: none;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+/*service-img*/
+.service-img{
+    margin-top: 20px;
+}
+/*portfolio section*/
+.portfolio{
+    padding-top: 50px;
+}
+/*portfolio text*/
+.portfolio-text{
+    text-align: center;
+    font-size: 13px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+/*portfolio heading*/
+h6{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 35px;
+}
+/*portfolio buttons*/
+.portfolio-buttons{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap:40px;
+}
+.port-btn{
+background: none;
+border: none;
+color:gray;
+font-size: 15px;
+letter-spacing: 1px;
+}
+.port-btn:hover{
+    color: black;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+/*Luxury Waterfront section*/
+.waterfront-area{
+   position: relative;
+   width: 100%;
+   height: 650px;
+   overflow: hidden;
+   padding-top: 30px;
+}
+/*Waterfront img*/
+.waterfront-img{
+    position: absolute;
+    z-index:-1;
+    object-fit: cover;
+}
+/*waterfront content*/
+.Waterfront-content{
+  padding-left: 50px;
+  padding-top: 350px;
+}
+/*waterfront text*/
+.waterfront-text{
+    color: white;
+}
+/*waterfront heading*/
+.waterfront-heading{
+    color: white;
+    font-size: 40px;
+}
+/*waterfront buttons*/
+.waterfront-buttons{
+    padding-top: 20px;
+}
+.Btn1{
+    margin-left: 50px;
+    height:60px;
+    width: 180px;
+    background-color:rgb(12, 20, 41);
+    color: white;
+    border: 1px solid rgb(12, 20, 41);
+}
+.Btn2{
+     height:60px;
+    width: 180px;
+    color: white;
+    background: none;
+    border: 2px solid white;
+    margin-left: 12px;
+}
+/*house container section*/
+/*house images*/
+.house-images{
+    display: flex;
+    padding-top: 30px;
+}
+/*images text*/
+/*images name*/
+.image-name{
+padding-left: 35px;
+padding-top: 30px;
+font-size: 20px;
+}
+/*images information*/
+.image-information{
+padding-left: 35px;
+margin-top: 10px;
+}
+/*house images button*/
+.house-images-btn{
+   margin-top: 64px;
+   margin-left: 550px;
+  height: 50px;
+  width: 200px;
+  background: none;
+  border: 2px solid black;
+}
+.house-images-btn:hover{
+    color: white;
+    background-color:rgb(12, 20, 41);
+    border: 2px solid rgb(12, 20, 41);
+}
+/*ready to buy dream property*/
+/*dream property*/
+.dream-property{
+    position: relative;
+    padding-top: 80px;
+    height: 450px;
+}
+/*img of property*/
+.img-property{
+    position: absolute;
+    object-fit:cover;
+    z-index: -1;
+}
+/*property text*/
+.property-content{
+    text-align: center;
+}
+.property-line{
+padding-top: 30px;
+color:black;
+font-size: 40px;
+}
+.Dream-property{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.journy{
+    font-size: 20px;
+    color:white;
+}
+.property-text{
+    color: azure;
+}
+/*property buttons*/
+.property-btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap:10px;
+}
+.bootn1{
+    height: 60px;
+    width: 200px;
+    border: 1px solid white;
+}
+.bootn2{
+    height: 60px;
+    width: 200px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+}
+.bootn2:hover{
+    background-color: white;
+    color: black;
+}
+/*client demand section*/
+/*client content*/
+.client-content{
+    text-align: center;
+}
+/*client-text*/
+.client-text{
+    padding-top: 30px;
+}
+/*client said*/
+.client-said{
+    text-transform:capitalize;
+    font-size: 30px;
+    color: black;
+}
+/*client card section*/
+.client-card{
+    margin-top: 70px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+    height: 350px;
+    width: 800px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+/*card-text*/
+.card-text{
+    padding-left: 40px;
+}
+/*stars*/
+.stars {
+padding-top: 30px;
+  color: gold;
+  font-size: 15px;
+  display: flex;
+  gap: 6px;
+}
+.card-main{
+    color: black;
+    margin-top: 80px;
+}
+/*property investor img*/
+.property-investor-img{
+    display: flex;
+    margin-top: 80px;
+}
+/*property investor name*/
+.property-investor-name{
+    color:black;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+/*position*/
+.position{
+    color:gray;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+/*client feedback section*/
+.client-feedback{
+    padding-top: 200px;
+    padding-left: 30px;
+    display: flex;
+}
+/*feedback page*/
+.first-heading{
+color: black;
+word-spacing: 2px;
+font-size: 35px;
+}
+.name{
+    color:black;
+}
+.namebox{
+    height: 50px;
+    width: 250px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+.email{
+    color:black;
+}
+.emailbox{
+    height: 50px;
+    width: 250px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+.role{
+    color:black;
+}
+.rolebox{
+    height: 50px;
+    width: 400px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+.rating{
+    color:black
+}
+.review{
+    color: black;
+}
+.textarea{
+    height:150px;
+    width: 450px;
+    margin-top: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.optional{
+    color:black;
+}
+/*optional button*/
+.optional-btn{
+    height: 35px;
+    width: 100px;
+    background: none;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.optional-btn:hover{
+    background-color:lightgray;
+}
+/*submit button*/
+.submit{
+    height: 50px;
+    width: 170px;
+    background-color:rgb(12, 20, 41); 
+    color: white;
+    border: 1px solid rgb(12, 20, 41); 
+    border-radius: 5px;
+    margin-top: 20px;
+}
+/*faculty image*/
+.faculty-img{
+    padding-top: 200px;
+}
+/*footer section*/
+.footer{
+    padding-top: 200px;
+}
+/*footer content*/
+.footer-content{
+    height:350px;
+    background-color: #070621;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.title{
+    color: white;
+    font-size: 30px;
+     padding-left: 30px;
+}
+li{
+    font-size: 15px;
+    list-style-type: none;
+}
+li:hover{
+    color: white;
+}
+.title2{
+    color: white;
+    font-size: 15px;
+     padding-left: 30px;
+}
+.title3{
+    color: white;
+    font-size: 15px;
+     padding-left: 30px;
+}
+/*media quries for mobiles */
+@media (max-width:576px){
+    /*nav bar*/
+    .nav-right{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+        margin-top: 10px;
+    }
+    .nav-button{
+        margin-bottom: 10px;
+    }
+    /*Hero section*/
+    .hero-video{
+        width: 100%;
+    }
+    /*hero content*/
+    .hero-content{
+        max-width: 100%;
+    }
+    h1{
+    font-size: 26px;
+    text-align: center;
+    margin:20px;
+    }
+    p{
+    font-size: 16px;
+    padding: 10px 15px;
+    margin: auto;
+    }
+    /*hero-buttons*/
+    .Hero-button{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /*Experience section*/
+    .experience{
+        width: 100%;
+    }
+    /*share experience*/
+    .main-heading{
+        font-size: 26px;
+    }
+    .content{
+        font-size: 16px;
+    }
+    /*services section*/
+    .My-services{
+        width: 100%;
+    }
+    /*services content*/
+    .heading{
+        font-size: 28px;
+    }
+    .paragraph{
+        margin-top: 10px;
+    }
+    .content{
+        margin-top: 10px;
+    }
+    /*portfolio section*/
+    h6{
+        font-size: 28px;
+    }
+    /*portfolio buttons*/
+    .portfolio-buttons{
+        gap:15px;
+    }
+}
